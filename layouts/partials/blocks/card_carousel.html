@@ -10,7 +10,7 @@
 {{ $title := $data.title }}
 {{ $subtitle := $data.subtitle }}
 {{ $showIndicators := $data.showIndicators | default true }}
-{{ $cardsPerView := $data.cardsPerView | default (dict "desktop" 4 "tablet" 2 "mobile" 1) }}
+{{ $cardsPerView := $data.cardsPerView | default (dict "desktop" 3 "tablet" 2 "mobile" 1) }}
 
 {{ if $cards }}
   <div class="card-carousel-wrapper my-5" id="wrapper-{{ $carouselId }}">

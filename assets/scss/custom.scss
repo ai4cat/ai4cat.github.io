@@ -287,7 +287,11 @@ html, body {
   }
 
   .carousel-inner .wg-hero {
-    margin-left: 2rem !important;
+    padding-left: 5%;
+    background-color: rgba(0,0,0,0.3);
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    max-width: 100% !important;
   }
 
   .hero-title {
@@ -299,6 +303,7 @@ html, body {
   .hero-lead {
     //color: #00000080 !important;
     font-size: 1rem;
+    max-width: 100% !important;
   }
 
 
@@ -396,7 +401,9 @@ html, body {
 
 /* 卡片列样式 - 基础宽度由JS动态计算，这里只设置内边距 */
 .card-carousel .col-card {
-  flex: 0 0 auto;
+  // flex: 0 0 auto;
+  flex: 0 0 33%; // 固定3分之一宽度
+  min-width: 33%;
   padding: 0 10px;
   box-sizing: border-box;
 }

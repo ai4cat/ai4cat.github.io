@@ -5,3 +5,6 @@
 /resources/
 public/
 assets/jsconfig.json
+
+# ignore big video files here
+static/resources/

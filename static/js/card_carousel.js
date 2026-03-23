@@ -83,7 +83,8 @@ function initCardCarousel() {
         this.currentIndex = Math.min(maxIndex, Math.max(0, this.currentIndex));
 
         // 设置卡片宽度
-        this.cardWidth = 100 / this.visibleCards;
+        // this.cardWidth = 100 / this.visibleCards;
+        this.cardWidth = 33; // // 固定为三分之一
         this.$cards.css('width', this.cardWidth + '%');
 
         // 移动行容器

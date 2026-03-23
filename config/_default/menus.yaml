@@ -25,9 +25,13 @@ main:
     url: "#thermocatalysis"
     weight: 70
 
-  - name: Image Gallery
-    url: "#image_gallery"
+  - name: Insudtrial Translation
+    url: "#industrial_translation"
     weight: 80
+
+#  - name: Image Gallery
+#    url: "#image_gallery"
+#    weight: 80
 
 
   - name: Publications
