@@ -88,7 +88,7 @@ heroSlideBlock:
         align: left
         background:
           image:
-            filename: group_slides/g10.png
+            filename: group_slides/g10_new.jpg
             filters:
               brightness: 1 # 1 #1
           position: right
