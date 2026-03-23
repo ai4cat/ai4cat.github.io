@@ -317,4 +317,4 @@ function initCardCarousel() {
 
 }
 
-window.addEventListener('load', initCardCarousel);
+// window.addEventListener('load', initCardCarousel);

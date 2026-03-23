@@ -142,6 +142,10 @@ html, body {
     // border-top: 1px solid lightgrey;
     //padding-top: 3rem;
     padding-top: 6rem;
+
+    .outer-arrows{
+      display: none;
+    }
   }
 
 
@@ -350,7 +354,102 @@ html, body {
 
 
 
+.h-video-grid {
 
+
+  .col-card {
+    padding: 0 10px;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+  }
+
+
+  .card {
+    height: 100%;
+    border: none;
+    box-shadow: none;
+  }
+
+  .card-body {
+    padding: 0.5rem 0.5rem;
+    text-align: left;
+  }
+
+
+  .video-item-wrap {
+    border-radius: 1.8rem;
+    overflow: hidden;
+    aspect-ratio: 16 / 9;
+    position: relative;
+    video {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+      max-height: unset;
+    }
+
+
+    /*实现"video元素有controls属性，但鼠标放上去才显示"的关键代码：*/
+    /* 核心代码 - 直接复制 */
+    video::-webkit-media-controls {
+      opacity: 0;
+      transition: opacity 0.3s;
+      pointer-events: none;
+    }
+
+    video:hover::-webkit-media-controls {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    /* Firefox支持 */
+    video::-moz-range-track {
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+
+    video:hover::-moz-range-track {
+      opacity: 1;
+    }
+
+    @media (hover: none) and (pointer: coarse) {
+      /* 触摸设备（手机/平板） */
+      video::-webkit-media-controls {
+        opacity: 1 !important;
+        pointer-events: auto !important;
+      }
+    }
+
+    /* ===== 或者使用JS检测移动端 ===== */
+    .mobile-device video::-webkit-media-controls {
+      opacity: 1 !important;
+      pointer-events: auto !important;
+    }
+
+  }
+
+  .c-video-subtitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+
+   .card-title {
+    color: #000000;
+    font-weight: 500;
+    font-size: 1.5rem;
+    // margin-bottom: 1.2rem;
+  }
+
+   .card-text {
+    color: #000000b3;
+    padding: 0;
+    font-size: 1.2rem;
+
+  }
+}
 
 
 

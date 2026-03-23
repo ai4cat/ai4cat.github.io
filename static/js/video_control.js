@@ -453,20 +453,20 @@ class VideoPlayerManager {
 }
 
 // 创建全局管理器实例
-window.videoManager = new VideoPlayerManager();
-
-// 自动初始化（DOM加载完成后）
-document.addEventListener('DOMContentLoaded', function () {
-  // 自动初始化所有带有 data-auto-init 属性的容器
-  window.videoManager.initAll('[data-auto-init="true"]');
-
-  // 或者初始化所有 .video-hover-container
-  if (document.querySelector('.video-hover-container')) {
-    window.videoManager.initAll('.video-hover-container');
-  }
-
-
-});
+// window.videoManager = new VideoPlayerManager();
+//
+// // 自动初始化（DOM加载完成后）
+// document.addEventListener('DOMContentLoaded', function () {
+//   // 自动初始化所有带有 data-auto-init 属性的容器
+//   window.videoManager.initAll('[data-auto-init="true"]');
+//
+//   // 或者初始化所有 .video-hover-container
+//   if (document.querySelector('.video-hover-container')) {
+//     window.videoManager.initAll('.video-hover-container');
+//   }
+//
+//
+// });
 
 
 function controlInit() {
@@ -593,4 +593,30 @@ function controlInit() {
 
 }
 
-controlInit();
+// controlInit();
+
+
+function initVideoCarouse () {
+
+  // 创建全局管理器实例
+  window.videoManager = new VideoPlayerManager();
+
+// 自动初始化（DOM加载完成后）
+  document.addEventListener('DOMContentLoaded', function () {
+    // 自动初始化所有带有 data-auto-init 属性的容器
+    window.videoManager.initAll('[data-auto-init="true"]');
+
+    // 或者初始化所有 .video-hover-container
+    if (document.querySelector('.video-hover-container')) {
+      window.videoManager.initAll('.video-hover-container');
+    }
+
+
+  });
+
+
+  controlInit();
+}
+
+
+// initVideoCarouse ()

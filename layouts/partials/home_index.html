@@ -81,7 +81,7 @@ https://blog.csdn.net/chenmo2001/article/details/117674446
           <div class="col-7 col-md-9">
             <h2 class="section-title">{{ $carousel_data.section_title | markdownify }}</h2>
           </div>
-          <div class="col-5 col-md-3">
+          <div class="col-5 col-md-3 outer-arrows">
 
             {{/*
           <!-- 基本属性 -->
@@ -105,7 +105,7 @@ https://blog.csdn.net/chenmo2001/article/details/117674446
 
         <div class="">
 
-          {{ partial "blocks/card_carousel.html" (dict
+          {{ partial "blocks/video_grid.html" (dict
           "carouselId" $group_id
           "carouselData" $carousel_data
           ) }}
