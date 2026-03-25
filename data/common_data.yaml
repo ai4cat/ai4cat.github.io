@@ -49,7 +49,7 @@ video_synthesis:
       title: "Programmable spatial calcination"
       text: "Robotic high-temperature calcination workflow for catalyst synthesis"
 
-    - video_src: "v/9.mp4"
+    - video_src: "v/10.mp4"
       title: "AI Agent-Assisted System Orchestration"
       text: "AI-Driven Robotic Control Workflow with OpenClaw"
 
@@ -88,6 +88,10 @@ video_industry:
     - video_src: "v/8.mp4"
       title: "Industrial Scale-Up"
       text: "Al-driven transition from catalyst discovery to pilot-scale plant realization"
+
+    - video_src: "v/9.mp4"
+      title: "AI-Driven Robotic Fuel Cell Stack Assembly"
+      text: "An autonomous, vision-guided platform for the precise and scalable assembly of PEMFC and AEMFC stacksenabling seamless translation from catalyst innovation to industrial device integration."
 
 
 
