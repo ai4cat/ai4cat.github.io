@@ -49,7 +49,7 @@ video_synthesis:
       title: "Programmable spatial calcination"
       text: "Robotic high-temperature calcination workflow for catalyst synthesis"
 
-    - video_src: "v/10.mp4"
+    - video_src: "v/0.mp4"
       title: "AI Agent-Assisted System Orchestration"
       text: "AI-Driven Robotic Control Workflow with OpenClaw"
 
