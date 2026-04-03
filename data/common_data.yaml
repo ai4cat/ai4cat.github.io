@@ -30,23 +30,23 @@ video_synthesis:
   section_title: "Robotics-Driven High-Throughput Catalyst Synthesis"
   cards:
     - video_src: "v/1.mp4"
-      title: "Automated synthesis of the MOF-74 support"
+      title: "Automated Synthesis of the MOF-74 Support"
       text: "Automated synthesis"
 
     - video_src: "v/2.mp4"
-      title: "Automated synthesis of the heterometallic La–Ce complex precursor"
+      title: "Automated Synthesis of the Heterometallic La–Ce Complex Precursor"
       text: "Automated synthesis"
 
     - video_src: "v/3.mp4"
-      title: "Host–guest encapsulation"
+      title: "Host–Guest Encapsulation"
       text: "AI-controlled robotic arm precisely assembles host–guest structures for catalyst design"
 
     - video_src: "v/4.mp4"
-      title: "Autonomous sample transfer"
+      title: "Autonomous Sample Transfer"
       text: "Robotic Arm + AGV workflow for Opentronssample transfer"
 
     - video_src: "v/5.mp4"
-      title: "Programmable spatial calcination"
+      title: "Programmable Spatial Calcination"
       text: "Robotic high-temperature calcination workflow for catalyst synthesis"
 
     - video_src: "v/0.mp4"
@@ -60,11 +60,11 @@ video_electrocatalysis:
   cards:
     - video_src: "v/6.mp4"
       title: "Robotics-Driven High-Throughput Electrochemical Performance Evaluations"
-      text: "Automated Catalyst Ink Preparation, Electrode Fabrication, High-Throughput RRDE Measurements, and Data Analysis"
+      text: "Automated catalyst ink preparation, electrode fabrication, high-throughput RRDE measurements, and data analysis"
 
     - video_src: "v/7.mp4"
       title: "Robotics-Driven Device-Level Performance Validation (MEA)"
-      text: "Automated Assembly of Membrane Electrode Assemblies and Fuel Cell Testing"
+      text: "Automated assembly of membrane electrode assemblies and fuel cell testing"
 
     # - video_src: "v/2-3.mp4"
     #   title: "AI Agent-Assisted System Orchestration"
