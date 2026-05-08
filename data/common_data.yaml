@@ -124,5 +124,6 @@ to_show_videos:
   - video_synthesis
   - video_electrocatalysis
   - video_thermocatalysis
+  - video_CSAC
   - video_industry
 # ------------- Specify which videos to Show ----------- <<
