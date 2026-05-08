@@ -81,6 +81,15 @@ video_thermocatalysis:
       text: "Enabling automated conversion of catalyst powders into engineering forms, fixed-bed packing, programmable pressure and temperature control, online product analysis, and catalytic performance evaluation using Fixed-Bed Reactor"
 
 
+video_CSAC:
+  id: csac
+  section_title: "C-SAC"
+  cards:
+    - video_src: "v/C-SAC2.mp4"
+      title: "Automated Synthesis of C-SAC"
+      text: "Automated synthesis workflow for CSAC catalysts, integrating precise liquid handling, controlled precursor mixing, and programmable thermal treatment to enable reproducible catalyst preparation"
+
+
 video_industry:
   id: industrial_translation
   section_title: "Insudtrial Translation"
