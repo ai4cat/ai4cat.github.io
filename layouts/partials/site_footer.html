@@ -3,4 +3,13 @@
 
   <span><a href='{{"" | relURL }}' >{{site.Title}}</a> © <script>document.write(new Date().getFullYear())</script></span>
 
+  {{ with site.Params.marketing.analytics.statcounter }}
+  {{ if and hugo.IsProduction .enabled .project_id .security_code }}
+  <p style="font-size:0.75rem; margin-top:0.5rem;">
+    Visitor analytics: Statcounter records IP addresses, visit times and pages viewed.
+    <a href="https://statcounter.com/about/legal/#privacy" target="_blank" rel="noopener">Privacy information</a>
+  </p>
+  {{ end }}
+  {{ end }}
+
 </footer>

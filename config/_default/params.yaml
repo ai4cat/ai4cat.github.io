@@ -25,6 +25,10 @@ marketing:
     baidu_tongji: ''
     google_tag_manager: ''
     microsoft_clarity: ''
+    statcounter:
+      enabled: true
+      project_id: '13355347'
+      security_code: 'e85adcdd'
   verification:
     google: ''
     baidu: ''
